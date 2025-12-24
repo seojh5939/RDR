@@ -51,7 +51,7 @@
 - **React Native New Architecture 적용**: Turbo Module 및 JSI 기반 SDK 설계
 - **타입 안전성 확보**: TypeScript + Codegen을 통한 자동 타입 생성
 - **Native Bridge 구현**:
-  - Android: Kotlin 기반 SDK (377 commits) 래핑
+  - Android: Kotlin 기반 SDK (283 commits, develop 브랜치) 래핑
   - iOS: Swift 기반 SDK (182 commits) 래핑
 - **React Hook 제공**: `useGetCollectData` 커스텀 훅으로 DX 향상
 - **플랫폼별 최적화**: Android/iOS 네이티브 코드 최적화 및 메모리 관리
@@ -67,7 +67,7 @@
 ---
 
 #### LPIN Android SDK v2
-**SDK 개발자** | 2024.02 - 현재 | 377 commits
+**SDK 개발자** | 2024.02 - 현재 | 283 commits (develop 브랜치)
 
 **상황**: 레거시 모놀리식 SDK의 유지보수성 및 확장성 문제
 **과제**: 기존 SDK를 모듈형 아키텍처로 전환하여 유지보수성 향상
@@ -220,7 +220,7 @@
 **주요 성과**:
 - ✅ **1,372 commits** (WorkPlus 프로덕션 앱)
 - ✅ **983 commits** (서울교통공사 프로덕션 앱)
-- ✅ **377 commits** (Android SDK v2 아키텍처 재설계)
+- ✅ **283 commits** (Android SDK v2 아키텍처 재설계, develop 브랜치)
 - ✅ **3개 플랫폼 SDK 에코시스템** 구축 (Android, iOS, React Native)
 - ✅ **MA 인증 획득** (서울교통공사 접근성)
 
@@ -374,7 +374,7 @@
 - **영어**: 기술 문서 읽기/쓰기 가능
 
 ### 기타
-- **GitHub 활동**: 1,372 commits (WorkPlus), 983 commits (서울교통공사), 377 commits (LPIN SDK v2)
+- **GitHub 활동**: 1,372 commits (WorkPlus), 983 commits (서울교통공사), 283 commits (LPIN SDK v2)
 - **오픈소스 기여**: (사용자로부터 추가 정보 필요)
 
 ---
